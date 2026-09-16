@@ -4,10 +4,10 @@ int main()
 {
 	int N;
 	scanf("%d",&N);
-	int b=N,ans=0; ///±NNªº­È
+	int b=N,ans=0;
 	while(N>0){
 		ans=ans*10+N%10;
-		N=N/10; /// N ³Q­é¥Ö
-		}
-		printf("%d+%d=%d\n",b,ans,b+ans);
+		N=N/10;
+	}
+	printf("%d+%d=%d\n",b,ans,b+ans);
 }
