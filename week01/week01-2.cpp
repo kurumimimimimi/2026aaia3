@@ -4,12 +4,12 @@ int main()
 {
 
 	int N;
-	std::cin>>N; ///c++¿é¤J¸ê®Æ ¼Ğ·Ç::¿é¤J °e¨ì¥kÃäN
+	std::cin>>N; ///c++Â¿Ã©Â¤JÂ¸ÃªÂ®Ã† Â¼ÃÂ·Ã‡::Â¿Ã©Â¤J Â°eÂ¨Ã¬Â¥kÃƒÃ¤N
 	int b=N,ans=0;
 	while(N>0){
 	ans=ans*10+N%10;
-	N=N/10;
-	}
+		N=N/10;
+		}
 	std::cout<<b<<ans<<b+ans;//WRONG ANSWER
 	// std::cout<<b<<"+"<<ans<<"="<<b+ans<<std::endl;
 	// std::cout<<b<<"+"<<ans<<"="<<b+ans<<"\n";
